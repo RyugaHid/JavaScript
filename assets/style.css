@@ -56,12 +56,12 @@ body , html {
     padding: 30px;
 }
 
-h1 {
+.container h1 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-button {
+.container button {
     background: none;
     border: 1px solid black;
     border-radius: 4px;
@@ -69,11 +69,11 @@ button {
     font-size: .9rem;
 }
 
-button:hover {
+.container button:hover {
     background: orangered;
 }
 
-button:active {
+.container button:active {
     background: #000;
     color: #fff;
 }
@@ -96,6 +96,77 @@ button:active {
 }
 
 /* Modal Window */
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#btn_modal{
+    padding: 8px;
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.modal_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.modal_content{
+    background-color: #fff;
+    color: #000;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.modal_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size:20px ;
+    color: #000;
+
+}
+.modal_title{
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+}
+.modal_text{}
+
+.modal.appear{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -24,3 +24,12 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
     }
     sliderLine.style.left = -offset + 'px';
 });
+
+
+let btn = document.querySelector('#btn_modal');
+
+let modal = document.querySelector('#modal');
+
+btn.addEventListener('click', () => {
+    modal.classList.toggle('appear')
+})
