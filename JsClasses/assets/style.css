@@ -1,0 +1,17 @@
+input {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+button {
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #ccc;
+    width: 100px;
+}
+
+td,
+th {
+    border: 1px solid #ccc;
+}
+
